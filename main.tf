@@ -1,5 +1,5 @@
 resource "aws_vpc" "vpc" {
-  id = "data.aws_vpc.vpc.id"
+  id = "./data.aws_vpc.vpc.id"
 }
 
 resource "aws_route_table" "rt_nat" {
